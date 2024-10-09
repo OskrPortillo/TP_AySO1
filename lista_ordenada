@@ -1,0 +1,10 @@
+guest-oolv7a:x:997:987:Guest:/tmp/guest-oolv7a:/bin/bash
+oscar:x:1000:1000:oscar:/home/oscar:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+hplip:x:117:7:HPLIP system user,,,:/run/hplip:/bin/false
+lightdm:x:110:113:Light Display Manager:/var/lib/lightdm:/bin/false
+speech-dispatcher:x:113:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+whoopsie:x:108:111::/nonexistent:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
