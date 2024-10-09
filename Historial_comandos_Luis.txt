@@ -1,0 +1,100 @@
+> ~/.bash_history
+history -w
+> ~/.bash_history
+history -w
+history
+clear
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ls -la $HOME/.ssh/
+cd
+pwd
+mkdir repogit
+ls
+rm -r repogit/
+s
+clear
+ls
+mkdir repogit
+ls
+cd repogit
+git clone git@github.com:OskrPortillo/TP_AySO1.git
+ls
+cd TP_AySO1/
+pwd # pwd muestra el path donde estamos parados
+pwd
+history
+ssh keygen #De esta forma se generará un juego de claves de ssh públicas y privadas en el directorio home del usuario “$HOME” en la carpeta oculta .ssh 
+history
+ls -la $HOME/.ssh/ # Listar los archivos ssh
+cat $HOME/.ssh/*.pub # Ver el contenido del archivo donde se encuentra la clave publica
+clear
+ls -l # Muestra los archivos, directorios em forma detallada
+ls -l
+cat/etc/os-release # Ver el contenido del archivo de configuración “os-release“
+cat /etc/os-release # Ver el contenido del archivo de configuración “os-release“
+man grep
+man grep # Verificar en la ayuda del comando grep como ignorar las mayusculas y minusculas (-i)
+grep HOME_URL /etc/os-release # Realizar la búsqueda poniendo el string a buscar todo en mayúscula
+grep home_url /etc/os-release # Realizar la búsqueda poniendo el string a buscar todo en minúscula
+grep -i home_url /etc/os-release # Realizar la búsqueda ignorando mayusculas y minusculas
+whoami # Muestra el nombre de usuario con el que estamos logueados o actual
+echo “Usuario=$(whoami)” > datos_usuario.txt # Creamos un archivo datos_usuario.txt con el siguiente formato “usuario:<nombre-del-usuario>
+ls
+nano datos_usuario.txt 
+git add . # agregamos todos los archivos al staging
+git status
+git config --global user.email "oscarportillo84@gmail.com"
+git config --global user.name "Oskr_Portillo"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep cpuinfo
+grep cpuinfo /proc
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 
+grep "model name" /proc/cpuinfo # Busca informacion del cpu en el directorio proc
+grep "model name" /proc
+grep "model name" /proc/cpuinfo # Busca informacion del cpu en el archivo cpuinfo que esta en el directorio proc 
+grep "model name" /proc/cpuinfo | head -n1 # Muestra la primera linea de la busqueda 
+clear
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+ls
+nano datos_usuario.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+clear
+man grep
+man grep -v
+grep nologin /etc/passwd
+grep -v nologin /etc/passwd # Busca y muestra todas las lineas que NO tengan nologin
+grep -v 'nologin' /etc/passwd | head -n10 | sort -t ':' -k 7
+grep -v 'nologin' /etc/passwd | head -n10 | sort -t ':' -k 7 > lista_ordenada
+ls 
+nano lista_ordenada 
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git push origin main
+apropos dump 
+apropos "dump traffic"
+echo "tcpdump" > comando_dump_net; echo "apropos 'dump traffic' > comando_dump_net"
+ls
+nano comando_dump_net 
+echo "tcpdump" > comando_dump_net ; echo "apropos 'dump traffic' >> comando_dump_net"
+echo "tcpdump" > comando_dump_net ; echo "apropos 'dump traffic'" >> comando_dump_net
+nano c
+echo "tcpdump" > comando_dump_net ; echo "apropos dump traffic" >> comando_dump_net
+nano comando_dump_net 
+clear
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git push origin main
+cat << EOF >> README.md
+Alumno: Luis Portillo
+Division: 315
+Turno: Noche
+EOF
+
+history -a
